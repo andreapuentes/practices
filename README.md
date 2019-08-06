@@ -1,0 +1,3 @@
+#PRACTICES
+
+#practicas de fullstack
