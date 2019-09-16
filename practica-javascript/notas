@@ -1,0 +1,7 @@
+
+alumnos.forEach(alumno => {
+	console.log(alumno)
+	}
+);
+
+jsonplaceholder
