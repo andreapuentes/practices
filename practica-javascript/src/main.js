@@ -121,15 +121,15 @@ for (var i=0; i < alumnos.length; i++)
     }
     console.log("____________________");
 }
-*/
 
-// let cont = 0;
 
-// while(cont<100)
-// {
-//     console.log("Hola Mundo");
-//     cont++;
-// }
+ let cont = 0;
+
+ while(cont<100)
+ {
+     console.log("Hola Mundo");
+     cont++;
+ }
 
 window.alert('Chau');
 
@@ -140,3 +140,12 @@ console.log('Hola ', name);
 let confirmar = window.confirm('Desea permanecer en esta pantalla?');
 
 console.log(confirmar);
+
+*/
+
+let i = 0;
+
+while​ (i<1000​) {
+​console​.log(​"Hola mundo"​);
+    i = i + ​1​; 
+}
