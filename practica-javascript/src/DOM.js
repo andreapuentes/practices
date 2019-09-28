@@ -62,7 +62,8 @@ function createCard(name, body, p_email, p_id) {
     const id = document.createElement('a');
     id.className = 'btn btn-primary m-2';
     id.href = '#';
-    id.innerText = p_id;
+    id.innerText = "Identificador";
+    id.onclick=()=>{alert("ID: "+p_id);};
     container.appendChild(title);
     container.appendChild(p);
     container.appendChild(email);
