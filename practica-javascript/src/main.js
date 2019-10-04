@@ -149,3 +149,23 @@ while​ (i<1000​) {
 ​console​.log(​"Hola mundo"​);
     i = i + ​1​; 
 }
+
+
+function suma (a,b){
+    return a + b;
+}
+
+const suma = function(a,b){
+    return a+b;
+}
+
+const suma = (a,b)=>{    //si se recibe un solo parametro podría definir const suma = a =>{return a+a;}
+    return a+b;
+}
+
+const suma = (a,b) => a+b;
+
+const a = 3;
+const b = 5;
+
+const r=suma(a,b);

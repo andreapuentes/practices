@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Formulario</title>
+</head>
+<body>
+    <header class="container bg-warning p-2 mb-2">
+        <h2>My Form</h2>
+    </header>
+
+    <main class="container">
+        <form onsubmit="processForm(event)"> 
+            <div class="form-group">
+                <label form="title">Title</label>
+                <input 
+                    id="title" 
+                    class="form-control"
+                    name="title"
+                    type="text" 
+                    paceholder="Title"
+                />
+                <small class="text-muted">We need to know your name</small>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <div id="app"></div>
+        <button class="btn btn-warning mt-2" onclick="addElement();" >Add Element</button>
+    </main>
+
+    <footer class="container bg-warning p-2 mt-2">
+        <h5>My footer</h5>
+    </footer>
+    
+    <script type="text/javascript" src="./main.js"></script>
+    <script type="text/javascript" src="./prueba.js"></script>
+</body>
+</html>
