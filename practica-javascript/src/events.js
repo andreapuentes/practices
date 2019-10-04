@@ -45,6 +45,11 @@ const fnGetAge = () => {
     age.innerText = 'Edad: ' + age_i;
 }
 
+
+
+//about:blank
+
+
 // const fnPassBlur = () => {
 //     if (document.getElementById('Pass').length = 0 )
 //     {
